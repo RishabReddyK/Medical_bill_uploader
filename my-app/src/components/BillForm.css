@@ -1,0 +1,4 @@
+.formLabel{
+    display: 'flex';
+    flex-direction: column;
+}

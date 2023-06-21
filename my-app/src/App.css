@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.patient{
+  background-color: rgb(215, 233, 75);
+  border-radius: 25px;
+  width: 50%;
+  text-align: center;
+  display: inline-block;
+  margin: auto auto;
+  border: 20px solid #b06969;
+  margin-top: 10px;
+}
+.main{
+  
+  text-align: center;
+}
+.summary{
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; 
+  
+}
+.centered-div {
+  display: flex;
+  flex-direction: column; /* Display the contents in multiple lines */
+  align-items: center; /* Center the contents horizontally */
+  /* Other styles for the centered div */
+  border: 10px solid rgb(248, 109, 118);
+  border-radius: 20px;
+  padding: 10px;
+  background-color: aquamarine;
+}
+.button{
+  display: flex;
+  flex-direction: row; /* Display the contents in multiple lines */
+  justify-content: space-between;
+}
